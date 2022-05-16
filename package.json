@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "dev-by": "VUE_APP_COUNTRY=BY vue-cli-service serve",
+    "dev-in": "VUE_APP_COUNTRY=IN vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
